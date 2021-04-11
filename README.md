@@ -1,3 +1,16 @@
+<div align="center">
+  <h1>Pixa-Gallery</h1>
+  <p>Image gallery made with react, tailwindcss and pixabay api.</p>
+</div>
+
+## Set up Pixabay API Key
+
+1. Head over to Pixabay to obtain a API KEY.
+2. Create <code>.env</code> at the root of the project and add following values
+```
+REACT_APP_PIXABY_API=<your pixabay api key>
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
