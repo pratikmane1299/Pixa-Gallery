@@ -15,7 +15,7 @@ function App() {
         const temp = [...images, ...response.hits];
         setImages(temp);
       });
-  }, [query, page]);
+  }, [query, page, images]);
 
   const handleOnSearch = (term) => {
     setQuery(term)
